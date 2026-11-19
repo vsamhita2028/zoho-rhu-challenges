@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zoho Catalyst × React Hyderabad Utsavam — Booth Game Proposals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <p class="eyebrow">React Hyderabad Utsavam 2026</p>
+      <h1>Zoho Catalyst × React Hyderabad Utsavam</h1>
+      <p class="subtitle">Proposed Technical Booth Games</p>
+      <p class="intro">Engaging technical challenges designed to introduce attendees to the Zoho ecosystem and Zoho Catalyst capabilities.</p>
+    </div>
+  </header>
+
+  <main class="container proposals">
+    <article class="card">
+      <div class="card-heading">
+        <span class="number" aria-hidden="true">01</span>
+        <div><h2>Memory Tiles</h2><p class="tagline">Flip. Remember. Match.</p></div>
+      </div>
+      <section>
+        <h3>Concept</h3>
+        <p>A memory card-matching challenge where participants match Zoho products with their corresponding use cases.</p>
+      </section>
+      <section>
+        <h3>How it works</h3>
+        <ul>
+          <li>Participants see a grid of face-down tiles.</li>
+          <li>Each tile hides either a Zoho product or a business or technical use case.</li>
+          <li>Participants flip two tiles per turn.</li>
+          <li>A correct product-to-use-case match remains visible; incorrect pairs flip back over.</li>
+          <li>Participants match all pairs before the timer runs out.</li>
+          <li>Winners are determined by completion time and number of attempts.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Example matches</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th scope="col">Product</th><th scope="col">Use case</th></tr></thead>
+          <tbody>
+            <tr><td>Zoho CRM</td><td>Manage customer relationships</td></tr>
+            <tr><td>Zoho Desk</td><td>Manage customer support tickets</td></tr>
+            <tr><td>Zoho Flow</td><td>Automate workflows between applications</td></tr>
+            <tr><td>Zoho Catalyst</td><td>Build and deploy cloud applications</td></tr>
+            <tr><td>Zoho Creator</td><td>Build low-code business applications</td></tr>
+            <tr><td>Zoho Analytics</td><td>Analyze business data</td></tr>
+          </tbody>
+        </table></div>
+      </section>
+      <div class="takeaway"><p><strong>Product awareness:</strong> Participants discover Zoho products and understand what each one is used for.</p><p><strong>Suggested duration:</strong> 1–2 minutes</p></div>
+    </article>
+
+    <article class="card">
+      <div class="card-heading">
+        <span class="number" aria-hidden="true">02</span>
+        <div><h2>Query Quest</h2><p class="tagline">Query. Discover. Unlock.</p></div>
+      </div>
+      <section>
+        <h3>Concept</h3>
+        <p>A mini database investigation challenge that simulates the use of ZCQL (Zoho Catalyst Query Language).</p>
+      </section>
+      <section>
+        <h3>How it works</h3>
+        <ul>
+          <li>Participants receive a short mystery or data-finding challenge.</li>
+          <li>Participants use a sample dataset of fictional event attendees.</li>
+          <li>Participants use clues to write a ZCQL query that identifies the correct record.</li>
+          <li>They can test their queries in a simulated environment.</li>
+          <li>Each correct query reveals an answer or secret code.</li>
+          <li>Participants complete the challenge by submitting the correct result.</li>
+          <li>Winners are determined by accuracy and completion time.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Example challenge</h3>
+        <p><strong>Clue:</strong> Find the attendee whose city is Hyderabad and whose points are greater than 80.</p>
+        <p class="table-label">Sample fictional dataset</p>
+        <div class="table-wrap"><table>
+          <thead><tr><th scope="col">Name</th><th scope="col">City</th><th scope="col">Points</th></tr></thead>
+          <tbody>
+            <tr><td>Aarav</td><td>Hyderabad</td><td>65</td></tr>
+            <tr><td>Diya</td><td>Bengaluru</td><td>90</td></tr>
+            <tr><td>Meera</td><td>Hyderabad</td><td>95</td></tr>
+            <tr><td>Rohan</td><td>Chennai</td><td>75</td></tr>
+          </tbody>
+        </table></div>
+        <p class="table-label">Example query <span class="muted">(illustrative; adapt to the actual Catalyst table and column identifiers)</span></p>
+        <pre><code>SELECT Name FROM Attendees WHERE City = 'Hyderabad' AND Points &gt; 80;</code></pre>
+        <p><strong>Expected answer:</strong> Meera</p>
+      </section>
+      <div class="takeaway"><p><strong>Product awareness:</strong> Participants experience a simulation of how ZCQL can be used to query application data.</p><p><strong>Suggested duration:</strong> 3–5 minutes</p></div>
+    </article>
+  </main>
+  <footer class="container">React Hyderabad Utsavam 2026 | Zoho Catalyst Booth Game Concepts</footer>
+</body>
+</html>
