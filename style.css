@@ -38,7 +38,6 @@ section p { margin-bottom: .75rem; }
 .game-link { display: inline-flex; align-items: center; gap: .5rem; color: #126a98; font-size: .9rem; font-weight: 700; text-decoration: none; }
 .game-link:hover { text-decoration: underline; }
 .game-link:focus-visible { outline: 2px solid #126a98; outline-offset: 4px; border-radius: 2px; }
-.link-note { font-size: .8rem; font-weight: 400; }
 ul { margin: 0; padding-left: 1.2rem; color: #526575; font-size: .92rem; }
 li + li { margin-top: .55rem; }
 li::marker { color: #4697b6; }
